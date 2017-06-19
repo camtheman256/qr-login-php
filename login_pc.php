@@ -22,11 +22,11 @@ $db->close();
           <h3 class="panel-title">QR Code to Scan</h3>
         </div>
         <div class="panel-body" style="align:center">
-          <img src="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=http://172.16.7.114/login_qr.php?token=<?php echo $_SESSION["token"] ?>">
+          <img src="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=http://<!-- INSERT SERVER IP ADDRESS HERE -->/login_qr.php?token=<?php echo $_SESSION["token"] ?>">
         </div>
       </div>
       <div style="text-align:right">
-        <p><a href="http://172.16.7.114/success.php" class="btn btn-success btn-lg" role="button">I've logged in.</a></p>
+        <p><a href="/success.php" class="btn btn-success btn-lg" role="button">I've logged in.</a></p>
       </div>
     </div>
   </div>
